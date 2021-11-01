@@ -37,9 +37,9 @@ const upload = multer({
 })
 ```
  
-> **dest** or **storage** specifies the destination folder. Image will be saved in filename (eg: 4aeddf8e8745e849e1a384fa9430c9e3)  \
+> **dest** or **storage** specifies the destination folder. Image will be saved in filename (eg: 4aeddf8e8745e849e1a384fa9430c9e3)  
 
-> **limits** allows to add limits to uploading files. This is an optional parameter \
+> **limits** allows to add limits to uploading files. This is an optional parameter 
 
 >**fileFilter** helps to control which files should be uploaded and which should be skipped. This is also optional.
 
@@ -58,12 +58,12 @@ app.post('/upload',upload.single('Uploaded_file'),(req,res) =>{
 ### In console 
 ```
   fieldname: 'Uploaded_file',
-  originalname: 'Deepshikha_photo (1).jpg', \
-  encoding: '7bit', \
-  mimetype: 'image/jpeg', \
-  destination: 'images', \
-  filename: '4aeddf8e8745e849e1a384fa9430c9e3', \
-  path: 'images\\4aeddf8e8745e849e1a384fa9430c9e3', \
+  originalname: 'Deepshikha_photo (1).jpg', 
+  encoding: '7bit', 
+  mimetype: 'image/jpeg', 
+  destination: 'images', 
+  filename: '4aeddf8e8745e849e1a384fa9430c9e3', 
+  path: 'images\\4aeddf8e8745e849e1a384fa9430c9e3', 
   size: 101738
   ```
 
